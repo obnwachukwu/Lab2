@@ -7,12 +7,6 @@ var myTodo = /** @class */ (function () {
         console.log(tasks + " added to my Tasks");
         return length;
     };
-    //  addTask(task: string): number{
-    //     let length: number = this.TaskArray.push(task);
-    //     console.log("the task " + task + "was added");
-    //     console.log("\n");
-    //     return length;
-    // }
     myTodo.prototype.listAllTasks = function () {
         this.TaskArray.forEach(function (element) {
             console.log(element + " is in the tasks list");
